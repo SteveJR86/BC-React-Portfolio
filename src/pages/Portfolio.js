@@ -1,39 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
-import ProjectLink from '../components/ProjectLink';
-import ProjectPage from './ProjectPage';
+import Project from '../components/Project';
 import projectDetails from '../projects.json';
 
 function Portfolio(){
-  const listItems = projectDetails.map((project) => 
-    <ProjectLink 
-      key={project.Name}
-      name={project.Name}
-    />
-    )
-
   return (
-    <div>
-      <Routes>
-        <Route
-          path='/'
-          element={
-            <>
-              <h2>Portfolio</h2>
-              <ul>
-                {listItems}
-              </ul>
-            </>
-          }
-        />
+    <main>
+      <h2>Portfolio</h2>
         {projectDetails.map((project) => (
-          <Route
-            key={project.Name}
-            path={project.Name}
-            element={<ProjectPage projectDetails={project} />}
-          />
+          <Project key={project.Name} name={project.Name}/>
         ))}          
-      </Routes>
-    </div>
+    </main>
   )
 }
 
