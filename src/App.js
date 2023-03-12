@@ -3,7 +3,6 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
-import './App.css';
 
 function App() {
   return (

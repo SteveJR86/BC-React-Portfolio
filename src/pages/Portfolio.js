@@ -13,14 +13,17 @@ function Portfolio(){
 
   return (
     <div>
-      <h2>Portfolio</h2>
       <Routes>
         <Route
           path='/'
           element={
-          <ul>
-            {listItems}
-          </ul>}
+            <>
+              <h2>Portfolio</h2>
+              <ul>
+                {listItems}
+              </ul>
+            </>
+          }
         />
         {projectDetails.map((project) => (
           <Route
