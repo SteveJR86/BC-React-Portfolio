@@ -27,6 +27,13 @@ function NavBar(){
               About
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to='/contact'
+            >
+              Contact Us
+          </NavLink>
+        </li>
       </ul>
     </nav>
   )
