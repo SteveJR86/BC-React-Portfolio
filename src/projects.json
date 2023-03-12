@@ -1,22 +1,26 @@
 [
   {
-    "Name": "Project 1",
-    "Image": "https://placekitten.com/200/300",
-    "Description": "This project does some stuff"
+    "name": "Project 1",
+    "image": "https://placekitten.com/200/300",
+    "repo": "https://placekitten.com/200/300",
+    "site": "https://placekitten.com/200/300"
   },
   {
-    "Name": "Project 2",
-    "Image": "https://placekitten.com/201/300",
-    "Description": "This project does some other stuff"
+    "name": "Project 2",
+    "image": "https://placekitten.com/201/300",
+    "repo": "https://placekitten.com/201/300",
+    "site": "https://placekitten.com/201/300"
   },
   {
-    "Name": "Project 3",
-    "Image": "https://placekitten.com/200/301",
-    "Description": "This project does some really different stuff"
+    "name": "Project 3",
+    "image": "https://placekitten.com/200/301",
+    "repo": "https://placekitten.com/200/301",
+    "site": "https://placekitten.com/200/301"
   },
   {
-    "Name": "Project 4",
-    "Image": "https://placekitten.com/200/310",
-    "Description": "This project does nothing much at all"
+    "name": "Project 4",
+    "image": "https://placekitten.com/200/310",
+    "repo": "https://placekitten.com/200/310",
+    "site": "https://placekitten.com/200/310"
   }
 ]

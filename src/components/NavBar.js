@@ -16,9 +16,9 @@ function NavBar(){
           </li>
           <li>
             <NavLink
-              to='/portfolio'
+              to='/projectgallery'
               >
-                Portfolio
+                Project Gallery
             </NavLink>
           </li>
           <li>
