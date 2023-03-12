@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Project 1",
+    "Image": "https://placekitten/200/300",
+    "Description": "This project does some stuff"
+  },
+  {
+    "Name": "Project 2",
+    "Image": "https://placekitten/201/300",
+    "Description": "This project does some other stuff"
+  },
+  {
+    "Name": "Project 3",
+    "Image": "https://placekitten/200/301",
+    "Description": "This project does some really different stuff"
+  },
+  {
+    "Name": "Project 4",
+    "Image": "https://placekitten/200/302",
+    "Description": "This project does nothing much at all"
+  }
+]
