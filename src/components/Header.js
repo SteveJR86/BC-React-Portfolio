@@ -2,7 +2,7 @@ import NavBar from './NavBar'
 
 function Header(){
   return(
-    <header>
+    <header style={{display: "flex", flexWrap: "wrap"}}>
       <h1>Steve Riley Webdesign</h1>
       <NavBar />
     </header>

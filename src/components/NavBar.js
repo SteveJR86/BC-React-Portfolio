@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 function NavBar(){
   return (
-    <nav>
-      <ul>
+    <nav style={{flex: "auto"}}>
+      <ul style={{display: "flex", listStyleType: "none", gap: "20px", justifyContent: "space-around"}}>
         <li>
           <NavLink
             to='/'

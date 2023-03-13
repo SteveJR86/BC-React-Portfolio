@@ -1,26 +1,46 @@
 [
   {
     "name": "Project 1",
-    "image": "https://placekitten.com/200/300",
+    "image": {
+      "url": "https://placekitten.com/200/300",
+      "alt": "Description of the image"
+      },
     "repo": "https://placekitten.com/200/300",
-    "site": "https://placekitten.com/200/300"
+    "site": "https://placekitten.com/200/300",
+    "description": "A description of the website and what it does.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
   },
   {
     "name": "Project 2",
-    "image": "https://placekitten.com/201/300",
+    "image": {
+      "url": "https://placekitten.com/201/300",
+      "alt": "Description of the image"
+      },
     "repo": "https://placekitten.com/201/300",
-    "site": "https://placekitten.com/201/300"
+    "site": "https://placekitten.com/201/300",
+    "description": "A description of the website and what it does.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
   },
   {
     "name": "Project 3",
-    "image": "https://placekitten.com/200/301",
+    "image": {
+      "url": "https://placekitten.com/200/301",
+      "alt": "Description of the image"
+      },
     "repo": "https://placekitten.com/200/301",
-    "site": "https://placekitten.com/200/301"
+    "site": "https://placekitten.com/200/301",
+    "description": "A description of the website and what it does.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
   },
   {
     "name": "Project 4",
-    "image": "https://placekitten.com/200/310",
+    "image": {
+      "url": "https://placekitten.com/200/310",
+      "alt": "Description of the image"
+      },
     "repo": "https://placekitten.com/200/310",
-    "site": "https://placekitten.com/200/310"
+    "site": "https://placekitten.com/200/310",
+    "description": "A description of the website and what it does.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
   }
 ]
