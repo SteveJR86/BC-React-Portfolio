@@ -1,14 +1,17 @@
 import { Route, Routes } from 'react-router-dom';
-import Project from '../components/Project';
+import Gallery from '../components/Gallery';
+import SpecificProject from '../components/SpecificProject';
 import projects from '../projects.json';
 
 function ProjectGallery(){
   return (
     <main>
-      <h2>Project Gallery</h2>
+      <Routes>
+        <Route path='/' element={<Gallery projects={projects}/>} />
         {projects.map((projectDetails) => (
-          <Project key={projectDetails.name} name={projectDetails.name} image={projectDetails.image} repo={projectDetails.repo} site={projectDetails.site} />
-        ))}          
+        <Route key={projectDetails.name} path={projectDetails.name} element={<SpecificProject projectDetails={projectDetails}/>} />
+        ))}
+      </Routes>
     </main>
   )
 }
