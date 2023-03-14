@@ -1,46 +1,68 @@
 [
   {
-    "name": "Project 1",
+    "name": "Team Profile Generator",
     "image": {
-      "url": "https://placekitten.com/200/300",
-      "alt": "Description of the image"
+      "url": "/images/teamGenerator.png",
+      "alt": "output of the team profile generator project"
       },
-    "repo": "https://placekitten.com/200/300",
-    "site": "https://placekitten.com/200/300",
-    "description": "A description of the website and what it does.",
-    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
+    "repo": "https://github.com/SteveJR86/BC-Team-Profile-Generator",
+    "site": "https://github.com/SteveJR86/BC-Team-Profile-Generator/blob/main/output/team.html",
+    "description": "This program asks a serious of questions about a manager and their engineers/interns and builds an HTML page with all the team members details.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Node.js", "Inquirer"]
   },
   {
-    "name": "Project 2",
+    "name": "Weather Dashboard",
     "image": {
-      "url": "https://placekitten.com/201/300",
-      "alt": "Description of the image"
+      "url": "/images/weatherDashboard.png",
+      "alt": "weather dashboard website"
       },
-    "repo": "https://placekitten.com/201/300",
-    "site": "https://placekitten.com/201/300",
-    "description": "A description of the website and what it does.",
-    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
+    "repo": "https://github.com/SteveJR86/BC-Weather-Dashboard",
+    "site": "https://stevejr86.github.io/BC-Weather-Dashboard/",
+    "description": "A weather forecast app that gives the current weather and a five day look ahead as provided by openweathermap.org APIs for a users search. It also saves the past 5 locations that the user has searched for in localstorage.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery", "moment.js", "Server APIs"]
   },
   {
-    "name": "Project 3",
+    "name": "Moviepedia",
     "image": {
-      "url": "https://placekitten.com/200/301",
-      "alt": "Description of the image"
+      "url": "/images/moviepedia.png",
+      "alt": "homepage of moviepedia website"
       },
-    "repo": "https://placekitten.com/200/301",
-    "site": "https://placekitten.com/200/301",
-    "description": "A description of the website and what it does.",
-    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
+    "repo": "https://github.com/mohseenHamid/tsbc-project-1-moviepedia",
+    "site": "https://mohseenhamid.github.io/tsbc-project-1-moviepedia/",
+    "description": "A group project that built a front-end web service to allow users to search up information about a film including key actors. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Web APIs"]
   },
   {
-    "name": "Project 4",
+    "name": "Quiz",
     "image": {
-      "url": "https://placekitten.com/200/310",
-      "alt": "Description of the image"
+      "url": "/images/quiz.png",
+      "alt": "start page of quiz website"
+      },
+    "repo": "https://github.com/SteveJR86/BC-Multiple-Choice-Quiz",
+    "site": "https://stevejr86.github.io/BC-Multiple-Choice-Quiz/",
+    "description": "A multiple choice quiz that has a high score leaderboard that saves between visits to the website.",
+    "techStack": ["HTML5", "CSS3", "JavaScript"]
+  },
+  {
+    "name": "Planner App",
+    "image": {
+      "url": "/images/planner.png",
+      "alt": "planner app with 1pm highlighted in red as current time"
       },
     "repo": "https://placekitten.com/200/310",
-    "site": "https://placekitten.com/200/310",
-    "description": "A description of the website and what it does.",
-    "techStack": ["HTML5", "CSS3", "JavaScript", "React"]
+    "site": "https://stevejr86.github.io/BC-Planner-App/",
+    "description": "A planner app which allows you to enter your appointments/meetings for the current day and saves to local storage so your schedule is available next time you load the page.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+  },
+  {
+    "name": "Console Finance App",
+    "image": {
+      "url": "/images/finance.png",
+      "alt": "Description of the image"
+      },
+    "repo": "https://github.com/SteveJR86/BC-Console-Finances",
+    "site": "https://stevejr86.github.io/BC-Console-Finances/",
+    "description": "This is a javascript console app to calculate various items from an array of financial data.",
+    "techStack": ["JavaScript"]
   }
 ]

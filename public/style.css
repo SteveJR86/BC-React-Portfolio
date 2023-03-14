@@ -53,8 +53,15 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-/* my own additional resets */
+/* some global styling */
+body {
+  padding: 10px;
+}
 
-ul {
-  padding: 0;
+h1 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.25rem;
 }

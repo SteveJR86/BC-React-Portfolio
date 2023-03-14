@@ -1,13 +1,15 @@
 import { NavLink } from "react-router-dom";
+import './NavBar.css';
 
 function NavBar(){
   return (
-    <nav style={{flex: "auto"}}>
-      <ul style={{display: "flex", listStyleType: "none", gap: "20px", justifyContent: "space-around"}}>
+    <nav className="navbar">
+      <ul className="navbar-ul">
         <li>
           <NavLink
             to='/'
             end
+            className="navbar-navlink"
             >
               Home
           </NavLink>
@@ -15,6 +17,7 @@ function NavBar(){
         <li>
           <NavLink
             to='/projectgallery'
+            className="navbar-navlink"
             >
               Project Gallery
           </NavLink>
@@ -22,6 +25,7 @@ function NavBar(){
         <li>
           <NavLink
             to='/contact'
+            className="navbar-navlink"
             >
               Contact Us
           </NavLink>
