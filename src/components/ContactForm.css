@@ -1,0 +1,19 @@
+.contact-title {
+  margin-block: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 80ch;
+}
+
+.contact-form-name, .contact-form-email, .contact-form-details {
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+}
+
+.contact-form-details {
+  min-height: 10ch;
+}

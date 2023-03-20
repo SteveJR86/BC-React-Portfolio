@@ -1,21 +1,15 @@
 import { NavLink } from "react-router-dom";
+import './GalleryItem.css';
 
 function GalleryItem(props) { 
-  const style={
-    backgroundColor: "#cccccc",
-    minWidth: "280px",
-    maxWidth: "400px",
-    justifyContent: "center",
-    borderRadius: "10px",
-    overflow: "hidden",
-    position: "relative"
-  }
-
   return(
-    <article style={style}>
-      <NavLink style={{position: "absolute", top: "5px", left: "5px", backgroundColor: "#cccccc", padding: "10px"}} to={props.name}>{props.name}</NavLink>
-      <img style={{maxHeight: "100%", maxWidth: "100%"}} src={process.env.PUBLIC_URL + props.image.url} alt={props.image.alt} />
-    </article>
+    
+      <NavLink className="gallery-item" to={props.name}>
+        <h3 className="gallery-item-text">{props.name}</h3>
+        <div className="gallery-item-image" style={{backgroundImage: `url(${process.env.PUBLIC_URL + props.image.url})`}}></div>
+        {/* <img className="gallery-item-image" src={process.env.PUBLIC_URL + props.image.url} alt={props.image.alt} /> */}
+      </NavLink> 
+    
   )
 }
 

@@ -1,0 +1,12 @@
+.header-item{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  align-items: center;
+}
+
+@media screen and (min-width: 620px) {
+  .header-item{
+    flex-direction: row;
+  }
+}

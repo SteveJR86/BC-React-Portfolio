@@ -53,9 +53,23 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* some variables */
+:root {
+  --primary-color: #152340;
+  --secondary-color: #1B3059;
+  --text-color: #F2D479;
+}
+
+
 /* some global styling */
 body {
   padding: 10px;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+
+a {
+  color: var(--text-color);
 }
 
 h1 {

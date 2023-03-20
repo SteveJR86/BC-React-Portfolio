@@ -5,7 +5,7 @@ function SpecificProject(props){
     <>
       <h2>{props.projectDetails.name}</h2>
       <NavLink to='/projectgallery'>Back to Project Gallery</NavLink>
-      <img style={{maxWidth: "100%"}} src={props.projectDetails.image.url} alt={props.projectDetails.image.alt} />
+      <img style={{maxWidth: "100%"}} src={process.env.PUBLIC_URL + props.projectDetails.image.url} alt={props.projectDetails.image.alt} />
       <p>{props.projectDetails.description}</p>
       <h3>Tech Stack</h3>
       <ul>

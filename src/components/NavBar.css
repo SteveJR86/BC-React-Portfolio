@@ -6,15 +6,20 @@
   display: flex;
   list-style-type: none;
   gap: 10px;
-  justify-content: space-around;
+  justify-content: end;
   margin-inline: 0;
   margin-block: 5px;
   padding: 0;
 }
 
 .navbar-navlink {
-  background-color: #cccccc;
+  background-color: var(--secondary-color);
   padding-block: 10px;
   padding-inline: 10px;
   text-decoration: none;
+  border-radius: 10px;
+}
+
+.navbar-navlink:hover, .navbar-navlink:focus {
+  border-bottom: 5px solid var(--text-color);
 }
