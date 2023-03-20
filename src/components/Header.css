@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 650px) {
   .header-item{
     flex-direction: row;
   }

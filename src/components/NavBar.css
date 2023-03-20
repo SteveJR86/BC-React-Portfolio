@@ -5,8 +5,8 @@
 .navbar-ul {
   display: flex;
   list-style-type: none;
-  gap: 10px;
-  justify-content: end;
+  gap: 8px;
+  justify-content: flex-end;
   margin-inline: 0;
   margin-block: 5px;
   padding: 0;
@@ -15,7 +15,7 @@
 .navbar-navlink {
   background-color: var(--secondary-color);
   padding-block: 10px;
-  padding-inline: 10px;
+  padding-inline: 8px;
   text-decoration: none;
   border-radius: 10px;
 }

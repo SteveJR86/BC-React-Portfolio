@@ -1,8 +1,9 @@
 import ContactForm from "../components/ContactForm";
+import './Contact.css';
 
 function Contact(){
   return (
-    <main>
+    <main className="contact-page">
       <h2>Contact Page</h2>
       <p>Please get in touch with me through the following means or using the contact form below</p>
       <ul>

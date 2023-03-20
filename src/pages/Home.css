@@ -1,7 +1,12 @@
 .content {
-  display: flex;
-  flex-direction: column;
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   gap: 20px;
+}
+
+.profile-pic, .text {
+  flex: 1 1 auto;
 }
 
 .welcome-message {
@@ -10,6 +15,6 @@
 
 @media screen and (min-width: 650px) {
   .content {
-    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
   }
 }

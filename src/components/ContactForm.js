@@ -6,7 +6,7 @@ function ContactForm(){
     event.preventDefault();
     const formData = new FormData(event.target.form);
     formData.append('access_key', '9abd3290-4896-4e90-a98b-9fac87ed69b8');
-    const res = fetch("https://api.web3forms.com/submit", {
+    fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
     }).then(res => console.log(res));
